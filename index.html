@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>タヌキデータベース</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>動物園のタヌキ一覧</h1>
+    <label for="zoo-select">動物園を選択:</label>
+    <select id="zoo-select" onchange="showTanukis()">
+        <option value="1">のんほいパーク</option>
+        <option value="2">市原ぞうの国</option>
+        <option value="3">わんぱーくこうち</option>
+        <option value="4">よこはま動物園ズーラシア</option>
+        <option value="5">夢見々崎動物公園</option>
+    </select>
+
+    <h2>タヌキの名前:</h2>
+    <ul id="tanuki-list">
+        <!-- タヌキの名前がここに表示される -->
+    </ul>
+
+    <script src="app.js"></script>
+</body>
+</html>
